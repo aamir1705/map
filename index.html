@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map Sample</title>
+    <link rel="stylesheet" href="./bootstrap-4.3.1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
+
+</head>
+<body class= "container">
+    <div class ="wrap ">
+        <div class="head ">
+            <div class="header-text">Menu</div>
+
+            <div>
+                <i class="fa fa-cut"></i>
+                <i class="fa fa-copy"></i>
+                <i class="fa fa-edit"></i>
+                <i class="fa fa-line"></i>
+            </div>
+            <div>
+                <i class="fa fa-bars"></i   >
+                <i class="fa fa-save"></i>
+                </div>
+        </div>
+        <div class="toolpicker">
+            <div class="card text-light bg-dark">Add Tile </div>
+            <div class="card text-light bg-dark">Geo search</div>
+            <div class="card text-light bg-dark">Calculate Distance</div>
+        </div>
+        <div class="mapsection shadow-lg">
+            <div id="mapid"></div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
